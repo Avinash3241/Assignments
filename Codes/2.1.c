@@ -3,3 +3,11 @@
 #include <math.h>
 #include "2.1.h"
 
+int  main(void) //main function begins
+{
+
+//Gaussian random numbers
+gaussian("gau.dat", 1000000);
+
+return 0;
+}
